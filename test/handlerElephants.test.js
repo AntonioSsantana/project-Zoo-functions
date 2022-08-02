@@ -14,4 +14,7 @@ describe('Testes da função HandlerElephants', () => {
     it('Testa se handlerElephants("averageAge") retorna a média esperada', () => {
         expect(handlerElephants('averageAge')).toEqual(10.5);
     })
+    it('Testa se handlerElephants("location") retorna a localização esperada', () => {
+        expect(handlerElephants('location')).toBe('NW');
+    })
 });
