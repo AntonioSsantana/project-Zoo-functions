@@ -16,11 +16,8 @@ function countAnimals(animal) {
     return specificResidents.length;
   }
   return specificResidentsBySex.length;
-
 }
 
 console.log(countAnimals({ specie: 'lions' }));
 
 module.exports = countAnimals;
-
-
