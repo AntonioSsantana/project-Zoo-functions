@@ -27,7 +27,7 @@ function getEmployeesCoverage(employee) {
   const selectEmployee = findEmployee(employee);
 
   if (selectEmployee === undefined) {
-    throw new Error('Inválido');
+    throw new Error('Informações inválidas');
   }
 
   const relatedAnimals = findAnimalsReponsibleFor(selectEmployee);
